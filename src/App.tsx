@@ -2,6 +2,7 @@ import { Box, Flex } from "@chakra-ui/react"
 import About from "./components/About"
 import Navbar from "./components/Navbar"
 import IntroSection from "./components/IntroSection"
+import Projects from "./components/Projects"
 
 
 const App = () => {
@@ -26,6 +27,11 @@ const App = () => {
       {/* About Section */}
       <Box width="100%" id="about">
         <About />
+      </Box>
+
+       {/* Projects Section */}
+       <Box width="100%" id="projects">
+        <Projects />
       </Box>
    </Flex>
   )
