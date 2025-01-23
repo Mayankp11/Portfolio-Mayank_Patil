@@ -6,6 +6,7 @@ import Projects from "./components/Projects"
 import WorkExperience from "./components/WorkExperience"
 import TechStack from "./components/TechStack"
 import Footer from "./components/footer"
+import { Analytics } from "@vercel/analytics/react"
 
 
 const App = () => {
@@ -51,6 +52,7 @@ const App = () => {
         <Box id="contact" width="100%">
         <Footer />
       </Box>
+      <Analytics/>
    </Flex>
   )
 }
