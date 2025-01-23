@@ -4,6 +4,7 @@ import Navbar from "./components/Navbar"
 import IntroSection from "./components/IntroSection"
 import Projects from "./components/Projects"
 import WorkExperience from "./components/WorkExperience"
+import TechStack from "./components/TechStack"
 
 
 const App = () => {
@@ -38,6 +39,11 @@ const App = () => {
        {/* Projects Section */}
        <Box width="100%" id="projects">
         <Projects />
+      </Box>
+
+       {/* Tech Stack Section */}
+       <Box id="techstack" width="100%">
+        <TechStack />
       </Box>
    </Flex>
   )
