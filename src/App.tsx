@@ -3,6 +3,7 @@ import About from "./components/About"
 import Navbar from "./components/Navbar"
 import IntroSection from "./components/IntroSection"
 import Projects from "./components/Projects"
+import WorkExperience from "./components/WorkExperience"
 
 
 const App = () => {
@@ -27,6 +28,11 @@ const App = () => {
       {/* About Section */}
       <Box width="100%" id="about">
         <About />
+      </Box>
+
+       {/* Experience Section */}
+       <Box mt={8} width="100%" id="experience">
+        <WorkExperience />
       </Box>
 
        {/* Projects Section */}
